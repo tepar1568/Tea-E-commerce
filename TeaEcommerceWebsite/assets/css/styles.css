@@ -1,0 +1,295 @@
+body {
+  position: relative;
+  padding-bottom: 6rem;
+}
+.navbar-inverse {
+  border: none;
+  width:100%;
+  z-index: 100;
+}
+.navbar-toggle {
+	margin-right: 35px;
+	border: none;
+	background: transparent !important;
+}
+.navbar-toggle:hover {
+	background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+	width: 22px;
+	transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+	opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+	transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+	opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+	transform: rotate(0);
+}
+.searchbardiv{
+	display: block;
+	position: absolute;
+	background: #00ccff ;
+	top: 50px;
+	right: 0px;
+	z-index: 1001;
+	width: 100%;
+	max-width: 100%;
+	padding: 10px;
+	margin: 0px;
+}
+.buttonsearch{
+	position: absolute;
+	top :18px;
+	float: right;
+	right: 0px;
+	margin-right: 10px;
+	background-color: transparent;
+	border: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    color:#00ccff;
+}
+.buttonsearch:hover{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 0px;
+}
+.buttonsearch:focus{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 0px;
+}
+
+.form-control:focus {
+	border-color: #ccc;
+	}
+
+.breadcrumb {
+    background-color: white;
+    padding: 0;
+}
+textarea {
+    resize: none;
+}
+.add-to-cart-btn {
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+    width: 50%;
+}
+.bg-tea {
+    background: url("../images/pexels-photo-209356.jpeg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    color: #fff;
+}
+.bg-accessories {
+    background-image: url("../images/tea-food-green-ingredi...-culture-1573257.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    color: #fff;
+}
+/*.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+.checked {
+    color: orange;
+}
+.form-in-line {
+    display: inline-block;
+}
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #00cc00;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15%;
+}
+.ghost-button-acc {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #990000;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10%;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #C57200;
+}
+.ghost-button-acc:hover,
+.ghost-button-acc:active {
+  background-color: #fff;
+  color: #800040;
+}
+.img-padding {
+    padding-top: 80px;
+    padding-bottom: 68px;
+}
+.indent {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.indent-med {
+    padding-left: 135px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.mobile-space {
+    margin-top: 10px;
+}
+.btn-grey{
+    background-color:#D8D8D8;
+	color:#FFF;
+}
+.rating-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+}
+.bold{
+	font-weight:700;
+}
+.padding-bottom-7{
+	padding-bottom:7px;
+}
+.review-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px;
+	border-radius:3px;
+	margin-bottom:15px;
+}
+.review-block-name{
+	font-size:12px;
+	margin:10px 0;
+}
+.review-block-date{
+	font-size:12px;
+}
+.review-block-rate{
+	font-size:13px;
+	margin-bottom:15px;
+}
+.review-block-title{
+	font-size:15px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+.review-block-description{
+	font-size:13px;
+}
+.price-text {
+    font-size: 24px;
+}
+.tea-set-padding {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.tea-pot-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-center {
+    text-align: center;
+}
+.text-size-md {
+    font-size: 20px;
+}
+.footer-links{
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    position: absolute;
+}
+#formsearch{
+	display: none;
+}
+.glyphicon.glyphicon-search {
+	font-size: 18px;
+}
+#searchbox {
+
+	box-shadow: none;
+	padding: 8px 14px;
+}
+#searchbox:hover {
+	box-shadow: none;
+}
+
+@media (max-width: 767px)
+{
+    .add-to-cart-btn {
+        width: 75%;
+        margin-left: 13%;
+        margin-top: 25px;
+        padding-right: 20px;
+    }
+    .dropdown-small {
+        width: 100%;
+    }
+    .mobile-space {
+        margin-top: 20px;
+    }
+    .title-size {
+        font-size: 28px;
+    }
+}
+@media (min-widh: 500px) {
+    nav {
+        height: 50px;
+    }
+}
