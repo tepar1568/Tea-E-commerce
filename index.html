@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="For All of Your Tea Needs">
+    <meta name="author" content="Terrica Parker">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kooky for Tea</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a href="#home" class="navbar-brand">Kooky for Tea</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsemenu">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#" class="dropdown-toggle"
+                        data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">About
+                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html">About Kooky for Tea</a></li>
+                            <li><a href="about/faq's.html">FAQ's</a></li>
+                            <li><a href="about/shipping&amp;returns.html">Shipping &amp; Returns</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false">Tea
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tea.html">All Tea Products</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header" aria-label="Tea Categories">Tea Categories</li>
+                            <li><a href="tea/black-tea.html">Black Tea</a></li>
+                            <li><a href="tea/green-tea.html">Green Tea</a></li>
+                            <li><a href="tea/exotic-tea.html">Exotic Tea</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false">Accessories
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="accessories.html">All Accessories</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Categories</li>
+                            <li><a href="accessories/tea-pots.html">Tea Pots</a></li>
+                            <li><a href="accessories/tea-sets.html">Tea Sets</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div><!-- collapse navbar-collapse -->
+            <!--based off of code from: https://codepen.io/seegatesite/pen/aOPrEE -->
+            <div class="container searchbardiv" id="formsearch">
+               <form role="search" method="get" id="searchform">
+                   <div class="input-group">
+                       <input type="text" id="searchbox" class="form-control" name="s" id="s">
+                       <div class="input-group-btn">
+                           <button class="btn btn-default"  id="searchsubmit"  type="submit">
+                               <strong>Search</strong>
+                           </button>
+                       </div>
+                   </div>
+               </form>
+           </div>
+        </div><!-- container -->
+        <button type="button" class="buttonsearch" id="buttonsearch">
+          <i class="glyphicon glyphicon-search openclosesearch"></i><i class="glyphicon glyphicon-remove openclosesearch" style="display:none"></i>
+        </button>
+    <!-- ends here -->
+    </nav>
+    <div class="container">
+        <main role="main">
+            <h1 class="text-center title-size">Welcome to Kooky for Tea for all of your Kooky Needs!</h1>
+            <!-- <div class="bg-tea"> -->
+                <div class="bg-tea row text-center">
+                    <a class="ghost-button" href="tea.html">Shop Tea</a>
+            	</div>
+            <!-- </div> -->
+            <!-- <div class=""> -->
+                <div class="row text-center bg-accessories">
+                    <a class="ghost-button-acc" href="accessories.html">Shop Accessories</a>
+                    <!-- <button type="button" class="btn btn-primary btn-lg ">Shop Accessories</button> -->
+            	</div>
+            <!-- </div> -->
+            <!-- <div class="row">
+                <img src="images\pexels-photo-209356.jpeg" alt="" class="img-responsive">
+                <button type="button" class="btn btn-default centered"><a href="all-tea-products.html">Tea Products</a></button>
+            </div> -->
+            <!-- <div class="row">
+                <img src="images\tea-food-green-ingredi...-culture-1573257.jpg" alt="" class="img-responsive">
+            </div> -->
+        </main>
+    </div>
+    <footer  class="text-center" role="contentinfo">
+        <p>&copy; 2017 Terrica Parker. All Rights Reserved.
+            <span class="footer-links">
+                <i class="fa fa-cc-visa" aria-label="Visa"></i>
+                <i class="fa fa-cc-mastercard" aria-label="Mastercard"></i>
+                <i class="fa fa-cc-amex" aria-label="American Express"></i>
+                <i class="fa fa-cc-paypal" aria-label="PayPal"></i>
+            </span>
+        </p>
+    </footer>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
