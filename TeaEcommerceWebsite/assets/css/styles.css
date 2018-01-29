@@ -1,6 +1,20 @@
+/***** GENERAL *****/
+
+html {
+  height: 100%;
+}
+
 body {
-  position: relative;
-  padding-bottom: 6rem;
+  min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/***** GLOBAL *****/
+
+.container{
+      /* flex: 1; would be enough but it looks bad in IE */
+      flex: 1 0 auto;
 }
 .navbar-inverse {
   border: none;
@@ -85,15 +99,51 @@ body {
     background-color: white;
     padding: 0;
 }
-textarea {
-    resize: none;
-}
+
 .add-to-cart-btn {
     background-color: #000000;
     color: white;
     margin-top: 20px;
     width: 50%;
 }
+
+/***** LAYOUT *****/
+footer {
+    background-color: #222222;
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.footer-links{
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+}
+
+#formsearch{
+	display: none;
+}
+.glyphicon.glyphicon-search {
+	font-size: 18px;
+}
+#searchbox {
+
+	box-shadow: none;
+	padding: 8px 14px;
+}
+#searchbox:hover {
+	box-shadow: none;
+}
+
+.img-padding {
+    padding-top: 80px;
+    padding-bottom: 68px;
+}
+
+/***** HOME *****/
+
 .bg-tea {
     background: url("../images/pexels-photo-209356.jpeg");
     background-repeat:no-repeat;
@@ -113,18 +163,6 @@ textarea {
     background-size:cover;
     background-position:center;
     color: #fff;
-}
-/*.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
-.checked {
-    color: orange;
-}
-.form-in-line {
-    display: inline-block;
 }
 .ghost-button {
   display: inline-block;
@@ -164,22 +202,22 @@ textarea {
   background-color: #fff;
   color: #800040;
 }
-.img-padding {
-    padding-top: 80px;
-    padding-bottom: 68px;
-}
-.indent {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.indent-med {
-    padding-left: 135px;
-    padding-right: 50px;
-    padding-top: 10px;
-}
+
+/***** PRODUCT *****/
+
 .mobile-space {
     margin-top: 10px;
 }
+/***** PRODUCT RATING *****/
+
+.checked {
+    color: orange;
+}
+
+.form-in-line {
+    display: inline-block;
+}
+
 .btn-grey{
     background-color:#D8D8D8;
 	color:#FFF;
@@ -236,39 +274,14 @@ textarea {
 .text-center {
     text-align: center;
 }
+
+/***** FAQ's *****/
+
 .text-size-md {
     font-size: 20px;
 }
-.footer-links{
-    font-size: 24px;
-    color: white;
-    display: inline-block;
-}
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #222222;
-    color:#fff;
-    text-align: center;
-    padding: 10px;
-    font-size: 1em;
-    position: absolute;
-}
-#formsearch{
-	display: none;
-}
-.glyphicon.glyphicon-search {
-	font-size: 18px;
-}
-#searchbox {
 
-	box-shadow: none;
-	padding: 8px 14px;
-}
-#searchbox:hover {
-	box-shadow: none;
-}
+/***** MEDIA QUERIES *****/
 
 @media (max-width: 767px)
 {
